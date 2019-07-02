@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE ANALOG SPECIALIST</title>
+	<style type="text/css">
+
+		body{
+			background-color: rgb(239,239,239);
+			font-family: 'Courier Sans' , Courier, monospace;
+		}
+		
+
+
+		#outer-box{
+			background-color: white;
+			border:double black 5px;
+			width: 60%;
+			margin: 10px auto;
+			padding:20px;
+			min-width:700px;   /* this is to make sure when the window browser changes size (when you adjust the sides) it will not affect the content by  overlaping the borders so once the window shrinked to 700px then it will stop and no longer continue to shrink*/
+
+		}
+
+
+		#inner-box{
+			text-align:center;
+			width:600px;
+			margin:5px auto;
+
+		}
+
+		/*ul is for the whole unordered list, "li" is just for the listed items*/
+
+		ul{		
+			border-top:solid black 3px;
+			border-bottom:solid black 1px;
+			padding:15px 0px;
+		}
+
+	
+		ul li {
+  			display: inline-block;    /*this is to show the list in a horizontal line instead of listing ittop to bottom*/
+  			margin: 0px 20px;
+  			  		
+		}
+			
+		ul li a{
+			text-decoration: none;  /*this is to remove the underline below the word*/
+			color: rgb(50,50,50);	
+			text-transform: uppercase;	
+
+
+		}
+
+		.nav li a:hover{
+			color: red;
+			text-decoration: underline;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div id="outer-box">
+		<div id="inner-box">
+			<img src="logo.gif">
+
+				<ul class="nav">
+  					<li><a href="#home">Home</a></li>
+  					<li><a href="#forsales">For Sale</a></li>
+  					<li><a href="#repairs">Repairs</a></li>  
+  					<li><a href="#about">About</a></li>
+  					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+			<img src="keys.jpg">
+			<p>
+				We specialize in the sale and repair of classic keyboards, in particular the Fender Rhodes, Wuriltzer EP200, and Hohner Clavinet. 
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
